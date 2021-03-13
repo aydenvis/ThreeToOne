@@ -597,17 +597,6 @@ F 3 "" H 4050 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L KeyboardLibrary:Switch SW40
-U 1 1 60510024
-P 2750 3750
-F 0 "SW40" H 2708 4023 50  0000 C CNN
-F 1 "Switch" H 2700 3800 50  0001 C CNN
-F 2 "KeyboardFootprints:MX_Choc_Symmetric" H 2750 3750 50  0001 C CNN
-F 3 "" H 2750 3750 50  0001 C CNN
-	1    2750 3750
-	1    0    0    -1  
-$EndComp
-$Comp
 L KeyboardLibrary:Diode D40
 U 1 1 6051001E
 P 2600 3850
@@ -2296,8 +2285,6 @@ Connection ~ 1800 3950
 Wire Wire Line
 	1800 3950 2250 3950
 Connection ~ 2250 3950
-Wire Wire Line
-	2250 3950 2700 3950
 Connection ~ 2700 3950
 Wire Wire Line
 	2700 3950 3150 3950
@@ -3155,6 +3142,19 @@ F 1 "Hole" H 5378 2105 50  0000 L CNN
 F 2 "KeyboardFootprints:Hole_2mm" H 5300 2100 50  0001 C CNN
 F 3 "" H 5300 2100 50  0001 C CNN
 	1    5300 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 3950 2700 3950
+$Comp
+L KeyboardLibrary:Switch SW40
+U 1 1 60510024
+P 2750 3750
+F 0 "SW40" H 2708 4023 50  0000 C CNN
+F 1 "Switch" H 2700 3800 50  0001 C CNN
+F 2 "KeyboardFootprints:MX_Choc_Symmetric" H 2750 3750 50  0001 C CNN
+F 3 "" H 2750 3750 50  0001 C CNN
+	1    2750 3750
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
