@@ -1,4 +1,4 @@
-459176291344509
+460792311293773
 Keebio-Parts
 3_Pin_Jumper
 
@@ -1069,6 +1069,13 @@ ResetSW
 
 0
 4
+2
+KeyboardFootprints
+Resistor
+
+
+0
+2
 2
 KeyboardFootprints
 SMD_THT_Diode

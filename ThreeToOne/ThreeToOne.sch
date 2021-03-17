@@ -2213,17 +2213,6 @@ F 3 "" H 2800 500 60  0000 C CNN
 	1    2700 1550
 	1    0    0    -1  
 $EndComp
-$Comp
-L KeyboardLibrary:ProMicro U2
-U 1 1 607B0D82
-P 8950 1650
-F 0 "U2" H 8950 2687 60  0000 C CNN
-F 1 "ProMicro" H 8950 2581 60  0000 C CNN
-F 2 "KeyboardFootprints:ProMicro" H 9050 600 60  0001 C CNN
-F 3 "" H 9050 600 60  0000 C CNN
-	1    8950 1650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	900  2800 1350 2800
 Connection ~ 1350 2800
@@ -2876,7 +2865,7 @@ Text GLabel 10350 2700 0    50   Input ~ 0
 E4
 Text GLabel 10350 2800 0    50   Input ~ 0
 E2GND
-Text GLabel 8250 1400 0    50   Input ~ 0
+Text GLabel 8200 1400 0    50   Input ~ 0
 TRRSComm
 Text GLabel 2000 1300 0    50   Input ~ 0
 TRRSComm
@@ -2948,23 +2937,23 @@ Text GLabel 2000 900  0    50   Input ~ 0
 Col7
 Text GLabel 2000 800  0    50   Input ~ 0
 Col8
-Text GLabel 8250 900  0    50   Input ~ 0
+Text GLabel 8200 900  0    50   Input ~ 0
 Col9
-Text GLabel 8250 1000 0    50   Input ~ 0
+Text GLabel 8200 1000 0    50   Input ~ 0
 Col10
-Text GLabel 8250 1300 0    50   Input ~ 0
+Text GLabel 8200 1300 0    50   Input ~ 0
 Col11
-Text GLabel 8250 1500 0    50   Input ~ 0
+Text GLabel 8200 1500 0    50   Input ~ 0
 Col12
-Text GLabel 8250 1600 0    50   Input ~ 0
+Text GLabel 8200 1600 0    50   Input ~ 0
 Col13
-Text GLabel 8250 1700 0    50   Input ~ 0
+Text GLabel 8200 1700 0    50   Input ~ 0
 Col14
-Text GLabel 8250 1800 0    50   Input ~ 0
+Text GLabel 8200 1800 0    50   Input ~ 0
 Col15
-Text GLabel 8250 1900 0    50   Input ~ 0
+Text GLabel 8200 1900 0    50   Input ~ 0
 Col16
-Text GLabel 8250 2000 0    50   Input ~ 0
+Text GLabel 8200 2000 0    50   Input ~ 0
 Col17
 Text GLabel 6600 5900 0    50   Input ~ 0
 Row11
@@ -2990,156 +2979,10 @@ Text GLabel 3400 1900 2    50   Input ~ 0
 Row5
 Text GLabel 3400 1800 2    50   Input ~ 0
 Row4
-Text GLabel 9650 1800 2    50   Input ~ 0
-Row11
-Text GLabel 9650 1700 2    50   Input ~ 0
-Row10
-Text GLabel 9650 1600 2    50   Input ~ 0
-Row9
-Text GLabel 9650 1500 2    50   Input ~ 0
-Row8
-Text GLabel 9650 1400 2    50   Input ~ 0
-Row7
-Text GLabel 9650 1300 2    50   Input ~ 0
-Row6
-Text GLabel 9650 2000 2    50   Input ~ 0
+Text GLabel 8700 2400 3    50   Input ~ 0
 E3
-Text GLabel 9650 1900 2    50   Input ~ 0
+Text GLabel 8800 2400 3    50   Input ~ 0
 E4
-Text GLabel 9650 1000 2    50   Input ~ 0
-E2GND
-$Comp
-L KeyboardLibrary:Hole H1
-U 1 1 604DCAA4
-P 5300 1150
-F 0 "H1" H 5378 1196 50  0000 L CNN
-F 1 "Hole" H 5378 1105 50  0000 L CNN
-F 2 "KeyboardFootprints:Hole_2mm" H 5300 1100 50  0001 C CNN
-F 3 "" H 5300 1100 50  0001 C CNN
-	1    5300 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L KeyboardLibrary:Hole H3
-U 1 1 604DF4A1
-P 5300 1350
-F 0 "H3" H 5378 1396 50  0000 L CNN
-F 1 "Hole" H 5378 1305 50  0000 L CNN
-F 2 "KeyboardFootprints:Hole_2mm" H 5300 1300 50  0001 C CNN
-F 3 "" H 5300 1300 50  0001 C CNN
-	1    5300 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L KeyboardLibrary:Hole H5
-U 1 1 604EAA4A
-P 5300 1550
-F 0 "H5" H 5378 1596 50  0000 L CNN
-F 1 "Hole" H 5378 1505 50  0000 L CNN
-F 2 "KeyboardFootprints:Hole_2mm" H 5300 1500 50  0001 C CNN
-F 3 "" H 5300 1500 50  0001 C CNN
-	1    5300 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L KeyboardLibrary:Hole H2
-U 1 1 604F6F10
-P 5650 1150
-F 0 "H2" H 5728 1196 50  0000 L CNN
-F 1 "Hole" H 5728 1105 50  0000 L CNN
-F 2 "KeyboardFootprints:Hole_2mm" H 5650 1100 50  0001 C CNN
-F 3 "" H 5650 1100 50  0001 C CNN
-	1    5650 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L KeyboardLibrary:Hole H4
-U 1 1 604F6F16
-P 5650 1350
-F 0 "H4" H 5728 1396 50  0000 L CNN
-F 1 "Hole" H 5728 1305 50  0000 L CNN
-F 2 "KeyboardFootprints:Hole_2mm" H 5650 1300 50  0001 C CNN
-F 3 "" H 5650 1300 50  0001 C CNN
-	1    5650 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L KeyboardLibrary:Hole H6
-U 1 1 604F6F1C
-P 5650 1550
-F 0 "H6" H 5728 1596 50  0000 L CNN
-F 1 "Hole" H 5728 1505 50  0000 L CNN
-F 2 "KeyboardFootprints:Hole_2mm" H 5650 1500 50  0001 C CNN
-F 3 "" H 5650 1500 50  0001 C CNN
-	1    5650 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L KeyboardLibrary:Hole H8
-U 1 1 60502740
-P 5650 1750
-F 0 "H8" H 5728 1796 50  0000 L CNN
-F 1 "Hole" H 5728 1705 50  0000 L CNN
-F 2 "KeyboardFootprints:Hole_2mm" H 5650 1700 50  0001 C CNN
-F 3 "" H 5650 1700 50  0001 C CNN
-	1    5650 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L KeyboardLibrary:Hole H10
-U 1 1 60502746
-P 5650 1950
-F 0 "H10" H 5728 1996 50  0000 L CNN
-F 1 "Hole" H 5728 1905 50  0000 L CNN
-F 2 "KeyboardFootprints:Hole_2mm" H 5650 1900 50  0001 C CNN
-F 3 "" H 5650 1900 50  0001 C CNN
-	1    5650 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L KeyboardLibrary:Hole H12
-U 1 1 6050274C
-P 5650 2150
-F 0 "H12" H 5728 2196 50  0000 L CNN
-F 1 "Hole" H 5728 2105 50  0000 L CNN
-F 2 "KeyboardFootprints:Hole_2mm" H 5650 2100 50  0001 C CNN
-F 3 "" H 5650 2100 50  0001 C CNN
-	1    5650 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L KeyboardLibrary:Hole H7
-U 1 1 6050DD66
-P 5300 1750
-F 0 "H7" H 5378 1796 50  0000 L CNN
-F 1 "Hole" H 5378 1705 50  0000 L CNN
-F 2 "KeyboardFootprints:Hole_2mm" H 5300 1700 50  0001 C CNN
-F 3 "" H 5300 1700 50  0001 C CNN
-	1    5300 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L KeyboardLibrary:Hole H9
-U 1 1 6050DD6C
-P 5300 1950
-F 0 "H9" H 5378 1996 50  0000 L CNN
-F 1 "Hole" H 5378 1905 50  0000 L CNN
-F 2 "KeyboardFootprints:Hole_2mm" H 5300 1900 50  0001 C CNN
-F 3 "" H 5300 1900 50  0001 C CNN
-	1    5300 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L KeyboardLibrary:Hole H11
-U 1 1 6050DD72
-P 5300 2150
-F 0 "H11" H 5378 2196 50  0000 L CNN
-F 1 "Hole" H 5378 2105 50  0000 L CNN
-F 2 "KeyboardFootprints:Hole_2mm" H 5300 2100 50  0001 C CNN
-F 3 "" H 5300 2100 50  0001 C CNN
-	1    5300 2150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2250 3950 2700 3950
 $Comp
@@ -3153,8 +2996,95 @@ F 3 "" H 2750 3750 50  0001 C CNN
 	1    2750 3750
 	1    0    0    -1  
 $EndComp
-Text GLabel 8250 1200 0    50   Input ~ 0
+Text GLabel 8200 1200 0    50   Input ~ 0
 TRRSGnd
-Text GLabel 9650 1200 2    50   Input ~ 0
+$Comp
+L keebio:Elite-C U2
+U 1 1 6055E9BB
+P 8900 1450
+F 0 "U2" H 8900 2287 60  0000 C CNN
+F 1 "Elite-C" H 8900 2181 60  0000 C CNN
+F 2 "Keebio-Parts:Elite-C" V 9950 -1050 60  0001 C CNN
+F 3 "" V 9950 -1050 60  0001 C CNN
+	1    8900 1450
+	1    0    0    -1  
+$EndComp
+Text GLabel 9600 1200 2    50   Input ~ 0
 TRRSVcc
+Text GLabel 9850 1000 2    50   Input ~ 0
+E2GND
+Text GLabel 9600 1300 2    50   Input ~ 0
+Row6
+Text GLabel 9600 1400 2    50   Input ~ 0
+Row7
+Text GLabel 9600 1800 2    50   Input ~ 0
+Row8
+Text GLabel 9600 1700 2    50   Input ~ 0
+Row9
+Text GLabel 9600 1600 2    50   Input ~ 0
+Row10
+Text GLabel 9600 1500 2    50   Input ~ 0
+Row11
+$Comp
+L KeyboardLibrary:Diode LED0
+U 1 1 606358A6
+P 9800 1900
+F 0 "LED0" H 9944 1867 50  0000 L CNN
+F 1 "Diode" H 9900 2000 50  0001 C CNN
+F 2 "KeyboardFootprints:Diode" H 9900 2000 50  0001 C CNN
+F 3 "" H 9900 2000 50  0001 C CNN
+	1    9800 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L KeyboardLibrary:Diode LED1
+U 1 1 60637F62
+P 9600 2000
+F 0 "LED1" H 9744 1967 50  0000 L CNN
+F 1 "Diode" H 9700 2100 50  0001 C CNN
+F 2 "KeyboardFootprints:Diode" H 9700 2100 50  0001 C CNN
+F 3 "" H 9700 2100 50  0001 C CNN
+	1    9600 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 1900 9800 1900
+Wire Wire Line
+	9800 1000 9800 1100
+Wire Wire Line
+	9800 1100 10200 1100
+Wire Wire Line
+	9600 1000 9800 1000
+Connection ~ 9800 1000
+Wire Wire Line
+	9800 1000 9850 1000
+$Comp
+L KeyboardLibrary:Resistor R0
+U 1 1 6065EAE1
+P 10050 2000
+F 0 "R0" H 10050 1877 50  0000 C CNN
+F 1 "Resistor" H 10050 2000 50  0001 C CNN
+F 2 "KeyboardFootprints:Resistor" H 10050 2000 50  0001 C CNN
+F 3 "" H 10050 2000 50  0001 C CNN
+	1    10050 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L KeyboardLibrary:Resistor R1
+U 1 1 6067AA95
+P 9850 2100
+F 0 "R1" H 9850 1977 50  0000 C CNN
+F 1 "Resistor" H 9850 2100 50  0001 C CNN
+F 2 "KeyboardFootprints:Resistor" H 9850 2100 50  0001 C CNN
+F 3 "" H 9850 2100 50  0001 C CNN
+	1    9850 2100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10000 2100 10200 2100
+Wire Wire Line
+	10200 2100 10200 2000
+Wire Wire Line
+	10200 2000 10200 1100
+Connection ~ 10200 2000
 $EndSCHEMATC
