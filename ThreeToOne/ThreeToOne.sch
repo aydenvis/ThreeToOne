@@ -104,23 +104,23 @@ $EndComp
 $Comp
 L KeyboardLibrary:Switch SW90
 U 1 1 60535E84
-P 2500 5500
-F 0 "SW90" H 2458 5773 50  0000 C CNN
-F 1 "Switch" H 2450 5550 50  0001 C CNN
-F 2 "KeyboardFootprints:MX_Choc_Symmetric" H 2500 5500 50  0001 C CNN
-F 3 "" H 2500 5500 50  0001 C CNN
-	1    2500 5500
+P 3200 5500
+F 0 "SW90" H 3158 5773 50  0000 C CNN
+F 1 "Switch" H 3150 5550 50  0001 C CNN
+F 2 "KeyboardFootprints:MX_Choc_Symmetric" H 3200 5500 50  0001 C CNN
+F 3 "" H 3200 5500 50  0001 C CNN
+	1    3200 5500
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardLibrary:Diode D90
 U 1 1 60535E7E
-P 2350 5600
-F 0 "D90" H 2494 5567 50  0000 L CNN
-F 1 "Diode" H 2450 5700 50  0001 C CNN
-F 2 "KeyboardFootprints:Diode" H 2450 5700 50  0001 C CNN
-F 3 "" H 2450 5700 50  0001 C CNN
-	1    2350 5600
+P 3050 5600
+F 0 "D90" H 3194 5567 50  0000 L CNN
+F 1 "Diode" H 3150 5700 50  0001 C CNN
+F 2 "KeyboardFootprints:Diode" H 3150 5700 50  0001 C CNN
+F 3 "" H 3150 5700 50  0001 C CNN
+	1    3050 5600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2117,23 +2117,23 @@ $EndComp
 $Comp
 L KeyboardLibrary:REsw SW91
 U 1 1 60760716
-P 3100 5450
-F 0 "SW91" H 3100 5781 50  0000 C CNN
-F 1 "REsw" H 3100 5690 50  0000 C CNN
-F 2 "KeyboardFootprints:REsw" H 2600 5910 50  0001 C CNN
-F 3 "~" V 3260 5600 50  0001 C CNN
-	1    3100 5450
+P 2650 5450
+F 0 "SW91" H 2650 5781 50  0000 C CNN
+F 1 "REsw" H 2650 5690 50  0000 C CNN
+F 2 "KeyboardFootprints:REsw" H 2150 5910 50  0001 C CNN
+F 3 "~" V 2810 5600 50  0001 C CNN
+	1    2650 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardLibrary:Diode D91
 U 1 1 60535EBA
-P 3100 5600
-F 0 "D91" H 3244 5567 50  0000 L CNN
-F 1 "Diode" H 3200 5700 50  0001 C CNN
-F 2 "KeyboardFootprints:Diode" H 3200 5700 50  0001 C CNN
-F 3 "" H 3200 5700 50  0001 C CNN
-	1    3100 5600
+P 2650 5600
+F 0 "D91" H 2794 5567 50  0000 L CNN
+F 1 "Diode" H 2750 5700 50  0001 C CNN
+F 2 "KeyboardFootprints:Diode" H 2750 5700 50  0001 C CNN
+F 3 "" H 2750 5700 50  0001 C CNN
+	1    2650 5600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2347,11 +2347,6 @@ Connection ~ 1350 5700
 Wire Wire Line
 	1350 5700 1800 5700
 Connection ~ 1800 5700
-Wire Wire Line
-	1800 5700 2450 5700
-Connection ~ 2450 5700
-Wire Wire Line
-	2450 5700 3200 5700
 Connection ~ 3850 5700
 Wire Wire Line
 	3850 5700 4500 5700
@@ -2476,22 +2471,11 @@ Wire Wire Line
 Connection ~ 4650 4750
 Wire Wire Line
 	4650 4750 4650 4200
-Connection ~ 3200 5700
-Wire Wire Line
-	3200 5700 3850 5700
-Wire Wire Line
-	3300 5350 3300 4750
-Wire Wire Line
-	2600 5350 2600 5150
-Wire Wire Line
-	2600 5150 2850 5150
-Wire Wire Line
-	2850 5150 2850 4750
-Text GLabel 2900 5300 0    50   Input ~ 0
+Text GLabel 2450 5300 0    50   Input ~ 0
 E1
-Text GLabel 2900 5400 0    50   Input ~ 0
+Text GLabel 2450 5400 0    50   Input ~ 0
 E2
-Text GLabel 2900 5500 0    50   Input ~ 0
+Text GLabel 2450 5500 0    50   Input ~ 0
 EGND1
 Connection ~ 7000 3000
 Wire Wire Line
@@ -2880,8 +2864,6 @@ E2
 Text GLabel 3400 900  2    50   Input ~ 0
 EGND1
 Connection ~ 4200 5350
-Connection ~ 3300 5350
-Connection ~ 2600 5350
 Connection ~ 1950 5350
 Connection ~ 1500 5350
 Connection ~ 1050 5350
@@ -2905,10 +2887,6 @@ Wire Wire Line
 	3600 5200 3600 5900
 Wire Wire Line
 	4200 5350 4200 5900
-Wire Wire Line
-	3300 5350 3300 5900
-Wire Wire Line
-	2600 5350 2600 5900
 Wire Wire Line
 	2250 5200 2250 5900
 Wire Wire Line
@@ -3087,4 +3065,24 @@ Wire Wire Line
 Wire Wire Line
 	10200 2000 10200 1100
 Connection ~ 10200 2000
+Wire Wire Line
+	3300 4750 3300 5350
+Wire Wire Line
+	1800 5700 2750 5700
+Connection ~ 2750 5700
+Wire Wire Line
+	2750 5700 3150 5700
+Wire Wire Line
+	2850 5900 2600 5900
+Wire Wire Line
+	2850 4750 2850 5350
+Connection ~ 2850 5350
+Wire Wire Line
+	2850 5350 2850 5900
+Connection ~ 3150 5700
+Wire Wire Line
+	3150 5700 3850 5700
+Connection ~ 3300 5350
+Wire Wire Line
+	3300 5350 3300 5900
 $EndSCHEMATC
