@@ -104,23 +104,23 @@ $EndComp
 $Comp
 L KeyboardLibrary:Switch SW90
 U 1 1 60535E84
-P 3200 5550
-F 0 "SW90" H 3158 5823 50  0000 C CNN
-F 1 "Switch" H 3150 5600 50  0001 C CNN
-F 2 "KeyboardFootprints:MX_Choc_Symmetric" H 3200 5550 50  0001 C CNN
-F 3 "" H 3200 5550 50  0001 C CNN
-	1    3200 5550
+P 3200 5500
+F 0 "SW90" H 3158 5773 50  0000 C CNN
+F 1 "Switch" H 3150 5550 50  0001 C CNN
+F 2 "KeyboardFootprints:MX_Choc_Symmetric" H 3200 5500 50  0001 C CNN
+F 3 "" H 3200 5500 50  0001 C CNN
+	1    3200 5500
 	1    0    0    -1  
 $EndComp
 $Comp
 L KeyboardLibrary:Diode D90
 U 1 1 60535E7E
-P 3050 5650
-F 0 "D90" H 3194 5617 50  0000 L CNN
-F 1 "Diode" H 3150 5750 50  0001 C CNN
-F 2 "KeyboardFootprints:Diode" H 3150 5750 50  0001 C CNN
-F 3 "" H 3150 5750 50  0001 C CNN
-	1    3050 5650
+P 3050 5600
+F 0 "D90" H 3194 5567 50  0000 L CNN
+F 1 "Diode" H 3150 5700 50  0001 C CNN
+F 2 "KeyboardFootprints:Diode" H 3150 5700 50  0001 C CNN
+F 3 "" H 3150 5700 50  0001 C CNN
+	1    3050 5600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3066,15 +3066,12 @@ Wire Wire Line
 	10200 2000 10200 1100
 Connection ~ 10200 2000
 Wire Wire Line
-	3300 4750 3300 5400
-Connection ~ 3300 5400
-Wire Wire Line
-	3300 5400 3300 5900
+	3300 4750 3300 5350
 Wire Wire Line
 	1800 5700 2750 5700
 Connection ~ 2750 5700
 Wire Wire Line
-	2750 5700 3850 5700
+	2750 5700 3150 5700
 Wire Wire Line
 	2850 5900 2600 5900
 Wire Wire Line
@@ -3082,4 +3079,10 @@ Wire Wire Line
 Connection ~ 2850 5350
 Wire Wire Line
 	2850 5350 2850 5900
+Connection ~ 3150 5700
+Wire Wire Line
+	3150 5700 3850 5700
+Connection ~ 3300 5350
+Wire Wire Line
+	3300 5350 3300 5900
 $EndSCHEMATC
