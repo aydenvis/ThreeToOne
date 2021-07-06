@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ThreeToOne-rescue)(type Legacy)(uri ${KIPRJMOD}/ThreeToOne-rescue.lib)(options "")(descr ""))
+)

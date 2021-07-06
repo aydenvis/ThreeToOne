@@ -1,9 +1,10 @@
 # threetoone
 
+![threetoone](imgur.com image replace me!)
 
-*Updated QMK to 13.17*
+*A short description of the keyboard/project*
 
-* Keyboard Maintainer: [Ayden V](https://github.com/yourusername)
+* Keyboard Maintainer: [Ayden Visser](https://github.com/yourusername)
 * Hardware Supported: *The PCBs, controllers supported*
 * Hardware Availability: *Links to where you can find this hardware*
 
